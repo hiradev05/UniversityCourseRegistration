@@ -11,5 +11,9 @@ public class Registration {
         student.displayStudentInfo();
         System.out.println();
         course.displayCourse();
+        System.out.println();
+        System.out.println("Registration successful! " + student.studentName + " has been registered for "
+                        + course.courseTitle + "."
+        );
     }
 }
